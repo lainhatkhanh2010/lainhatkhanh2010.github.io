@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CV boostrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .p-mobile hr {
+                background-color: grey;
+                width: 80%;
+                height: 1px;    
+            }
+            .education, .work-experience {
+              display: flex;
+              margin-top: 40px;
+            }
+            .school-name, .company-name {
+              flex: 60%;
+              text-align: left;
+            }
+            .school-name > hr, .company-name > hr{
+              width: 90%;
+              margin-left: 0px;
+              height: 0px;
+            }
+            .p-work-experience {
+              margin-top: -5px;
+            }
+            .year {
+              flex: 40%;
+            }
+            .p-desktop {
+              display: none;
+            }
+            .work-experience-hr-v .hr-vr {
+              height: 100%;
+              width: 1px;
+            }
+            .work-experience-hr-h > hr {
+              width: 70%;
+              height: 0.1px;
+              margin-left: 0px;
+            }
+            .image-hover:hover img {
+              opacity: 0.7;
+            }
+            .p-desktop-hr {
+              background-color: gray;
+            }
+            .text-infomation {
+              color: #212529;
+            }
+            @media (min-width: 1000px) {
+              .p-mobile, .progress-mobile{
+                display: none;
+              }
+              .p-desktop {
+              display: block;
+              }
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container-fluid p-mobile">
+        <div class="row">
+          <div class="col-lg-4 text-center ">
+            <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 image-hover"><img class="img-fluid my-3" src="khanh.jpg" alt="avatar" width=300px></a>
+              <h1 class=" mt-3 ">LẠI NHẬT KHÁNH</h1>
+                <hr >
+              <h4 >WEB DEVELOPER FRONT-END</h4>
+                <br>
+            <div class="bg-dark text-light p-3">
+              <h1 class="mt-4 text-left">CAREER GOAL</h1>
+                 <p class="text-left ">Do you feel like you were made to lead and motivate a team to be their most productive and effective? Any great leader knows it takes so much more than simply telling others what to do, for them to be successful. There are a few key characteristics people can develop to prove they’re meant for that type of role:</p>
+                 <ul class="text-left ">
+                  <li>Gain a general knowledge of everything you can learn in your industry.</li>
+                  <li>Own your failures and share the credit of your successes.</li>
+                  <li>Accept that there will always be someone who knows more than you do about certain subjects.</li>
+                  <li>Work harder than everyone else on the team, no matter your position.</li>
+                  <li>Adapt to changes as they arise.</li>
+                  <li>Establish strong communication traits.</li>
+                  <li>Learn how to effectively delegate tasks.</li>
+                </ul>
+              <h1 class="mt-4 text-left">INFORMATION</h1>
+                 <p class="text-left ">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-calendar-week-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm9.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+                  </svg> 
+                  19.05.1997 </p>
+                 <p class="text-left ">
+                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                       <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                     </svg>
+                   Male</p>
+                 <p class="text-left ">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>
+                   0902.569.719</p>
+                 <p class="text-left ">
+                  <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"/>
+                  </svg> <a href="mailto:lainhatkhanh2010@gmail.com" class="text-light">lainhatkhanh2010@gmail.com</a>
+                  </p>
+                  <p class="text-left "><i class="fa fa-facebook-f" style="font-size:24px"></i>
+                    <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 text-light">Nhật Khánh</a></p>
+                  <p class="text-left ">
+                  <svg width="1.7em" height="1.7em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                    <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                  </svg> 
+                  Ho Chi Minh City</p>
+              <h1 class="mt-4 text-left">SKILL</h1>
+                 <p class="text-left mt-3 "><a href="https://www.office.com/?auth=2" target="_blank" class="text-light"><strong>MS Office</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:100%"></div>
+                  </div>
+                </p>
+                <p class="text-left mt-5 "><a href="https://getbootstrap.com/" target="_blank" class="text-light"><strong>BOOSTRAP</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                  </div>
+                </p>
+                <p class="text-left mt-5 "><a href="https://www.playstation.com/en-us/ps5/" target="_blank" class="text-light"><strong>PLAY STATION</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:100%"></div>
+                  </div>
+                </p>  
+                <p class="text-left mt-5 "><a href="https://www.python.org/" target="_blank" class="text-light"><strong>PHP</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                  </div>
+                </p>
+              <h1 class="mt-4 text-left">EDUCATION</h1>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                        Front-end Development
+                      </p>
+                    </div>
+                    <div class="year">
+                      2020-2021
+                    </div>
+                  </div>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                        Back-end Development
+                      </p>
+                    </div>
+                    <div class="year">
+                      2020-2021
+                    </div>
+                  </div>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                        Mobile Development
+                      </p>
+                    </div>
+                    <div class="year">
+                      2020-2021
+                    </div>
+                  </div>
+
+              <h1 class="mt-4 text-left">WORK EXPERIENCE</h1>
+                <div class="work-experience ">
+                  <div class="company-name">
+                    <h5>
+                      <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                    </h5>
+                    <p class="p-work-experience">
+                      Front-end Development
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="year">
+                    2020-2021
+                  </div>
+                </div>
+                <p class="text-left ">
+                  <strong>Work description:</strong> 
+                  <ul class="text-left">
+                    <li>Determining the structure and design of web pages.</li>
+                    <li>Ensuring user experience determines design choices.</li>
+                    <li>Developing features to enhance the user experience.</li>
+                    <li>Striking a balance between functional and aesthetic design.</li>
+                    <li>Ensuring web design is optimized for smartphones.</li>
+                    <li>Building reusable code for future use.</li>
+                    <li>Optimizing web pages for maximum speed and scalability.</li>
+                    <li>Utilizing a variety of markup languages to write web pages.</li>
+                    <li>Maintaining brand consistency throughout design.</li>
+                  </ul>
+                </p>
+                <div class="work-experience ">
+                  <div class="company-name">
+                    <h5>
+                      <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                    </h5>
+                    <p class="p-work-experience">
+                      Back-end Development
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="year">
+                    2020-2021
+                  </div>
+                </div>
+                <p class="text-left ">
+                  <strong>Work description:</strong> 
+                  <ul class="text-left">
+                    <li>Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</li>
+                    <li>Collaborating with the front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.</li>
+                    <li>Developing ideas for new programs, products, or features by monitoring industry developments and trends.</li>
+                    <li>Recording data and reporting it to proper parties, such as clients or leadership.</li>
+                    <li>Participating in continuing education and training to remain current on best practices, learn new programming languages, and better assist other team members.</li>
+                    <li>Taking lead on projects, as needed.</li>
+                  </ul>
+                  <div class="work-experience ">
+                    <div class="company-name">
+                      <h5>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </h5>
+                      <p class="p-work-experience">
+                        Mobile Development
+                      </p>
+                      <hr>
+                    </div>
+                    <div class="year">
+                      2020-2021
+                    </div>
+                  </div>
+                  <p class="text-left ">
+                    <strong>Work description:</strong> 
+                    <ul class="text-left">
+                      <li>Identify and plan for new features</li>
+                      <li>Develop application programming interfaces (APIs) to support mobile functionality</li>
+                      <li>Suggest and implement new mobile products, applications and protocols</li>
+                      <li>Remain up to date with the terminology, concepts and best practices for coding mobile apps</li>
+                      <li>Work closely with colleagues to constantly innovate app functionality and design</li>
+                      <li>Use and adapt existing web applications for apps</li>
+                      <li>Write unit and UI tests to identify malfunctions</li>
+                      <li>Communicate with users to understand their needs and experiences</li>
+                    </ul>
+                  </p>
+                <h1 class="mt-4 text-left ">CONTACT ME</h1>    
+                  <div class="form-group ">
+                    <form class="form-row" action="/action_page.php">
+                         <label>Full Name</label>
+                           <input type="text" class="form-control" placeholder="Your full name" required name="">
+                         <label>Gender </label>
+                           <select class="form-control">
+                            <option value="" selected>Your gender</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Orther</option>
+                           </select>
+                         <label>Email</label>
+                           <input type="email" class="form-control" placeholder="Your email" required name="">
+                         <label>Phone Number</label>
+                           <input type="number" class="form-control" placeholder="Your phone number" required name="">  
+                         <label>Message</label>
+                           <input type="text" class="form-control" placeholder="Your message" required name="">  
+                            <button type="submit" class="btn btn-primary mr-3 my-3">Submit</button>
+                     </form>
+                  </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="container-fluid p-desktop dark-mode-bg-dark-text-white" id="link0">
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 image-hover"><img class="img-fluid my-3" src="khanh.jpg" alt="avatar" width=300px></a>
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center text-center">
+            <h1 class=" mt-3 ">LẠI NHẬT KHÁNH</h1>
+                <hr width="70%" class="p-desktop-hr">
+              <h4>WEB DEVELOPER FRONT-END</h4>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand bg-dark navbar-dark d-flex justify-content-around sticky-top dark-mode-bg-light-navbar-light border border-secondary">
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link0"><h5>Home</h5></a>
+            </li>
+          </ul> 
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link1"><h5>Career Goal</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link2"><h5>Information</h5></a>
+            </li>
+          </ul>    
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link3"><h5>Skill</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link4"><h5>Education</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link5"><h5>Work Experience</h5></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="" data-toggle="modal" data-target="#contactme"><h5>Contact Me</h5></a>
+            </li>
+          </ul>
+        </nav>
+        <br id="link1">
+        <br>
+        <div class="container">
+          <h2 class="mt-3 bg-dark text-white p-3 dark-mode-bg-light-text-dark">CAREER GOAL</h2>
+          <hr class="p-desktop-hr">
+          <p>Do you feel like you were made to lead and motivate a team to be their most productive and effective? Any great leader knows it takes so much more than simply telling others what to do, for them to be successful. There are a few key characteristics people can develop to prove they’re meant for that type of role:</p>
+          <ul>
+            <li>Gain a general knowledge of everything you can learn in your industry.</li>
+            <li>Own your failures and share the credit of your successes.</li>
+            <li>Accept that there will always be someone who knows more than you do about certain subjects.</li>
+            <li>Work harder than everyone else on the team, no matter your position.</li>
+            <li>Adapt to changes as they arise.</li>
+            <li>Establish strong communication traits.</li>
+            <li id="link2">Learn how to effectively delegate tasks.</li>
+          </ul>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">INFORMATION</h2>
+          <hr class="p-desktop-hr">
+          <div class="row">
+          <p class="col-lg-6 text-left ">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-calendar-week-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm9.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+            </svg> 
+            19.05.1997 </p>
+           <p class="col-lg-6 text-left ">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                 <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+               </svg>
+             Male</p>
+           <p class="col-lg-6 text-left ">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+            </svg>
+             0902.569.719</p>
+           <p class="col-lg-6 text-left  ">
+            <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"/>
+            </svg> <a href="mailto:lainhatkhanh2010@gmail.com" class="text-infomation">lainhatkhanh2010@gmail.com</a>
+            </p>
+            <p class="col-lg-6 text-left"  id="link3">
+              <svg width="1.7em" height="1.7em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              </svg> 
+              Ho Chi Minh City
+             </p>
+            <p class="col-lg-6 text-left "><i class="fa fa-facebook-f" style="font-size:24px"></i>
+              <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 text-infomation">Nhật Khánh</a></p>
+          </div>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">SKILL</h2>
+          <hr class="p-desktop-hr">
+           <div class="container">
+             <div class="row justify-content-around">
+              <div class="card mt-3 ml-1 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.office.com/?auth=2" target="_blank" class="image-hover"><img class="card-img-top" src="office.png" alt="MS Office" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">MS Office</h5>
+                   <p class="card-text">Microsoft Office is now compatible with mobile after they recently developed Office Mobile, which offers free-to-use versions of Office applications for mobile devices.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100 điểm</div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-3 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://getbootstrap.com/" target="_blank" class="image-hover"><img class="card-img-top" src="boostrap.jfif" alt="boostrap" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Boostrap</h5>
+                   <p class="card-text">Bootstrap 4 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100 điểm</div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-4 ml-1 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.playstation.com/en-us/ps5/" target="_blank" class="image-hover"><img class="card-img-top" src="playstation.png" alt="playstation" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Play Station</h5>
+                   <p class="card-text">The PlayStation 5 (officially abbreviated as PS5) is an upcoming home video game console developed by Sony Interactive Entertainment.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100 điểm</div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.python.org/" target="_blank" class="image-hover"><img class="card-img-top" src="python.png" alt="python" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Python</h5>
+                   <p class="card-text">Python is a programming language. Python can be used on a server to create web applications. <br> <br>
+                   </p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%" id="link4">100 điểm</div>
+                    </div>                 
+                </div>    
+              </div>
+            </div>
+           </div> 
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">EDUCATION</h2>
+          <hr class="p-desktop-hr">
+           <div class="container ">
+            <div class="row justify-content-around">
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="nordiccoder.png" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white ">
+                    <h5 class="card-title">Nordic Coder</h5>
+                    <p class="card-text">
+                      _Major: Front-end Development <br>
+                      _Teacher: Mr. Đức Thịnh<br>
+                      _Course: 2020 - 2021
+                    </p>    
+                    <a href="https://nordiccoder.com/" target="_blank" class="btn btn-primary">Go Nordic Coder</a>           
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="nordiccoder.png" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white">
+                    <h5 class="card-title">Nordic Coder</h5>
+                    <p class="card-text">
+                      _Major: Back-end Development <br>
+                      _Teacher: Mr. Đức Thịnh<br>
+                      _Course: 2020 - 2021
+                    </p>          
+                    <a href="https://nordiccoder.com/" target="_blank" class="btn btn-primary">Go Nordic Coder</a>     
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="nordiccoder.png" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white">
+                    <h5 class="card-title">Nordic Coder</h5>
+                    <p class="card-text">
+                      _Major: Mobile Development <br>
+                      _Teacher: Mr. Đức Thịnh<br>
+                      _Course: 2020 - 2021
+                    </p>     
+                    <a href="https://nordiccoder.com/" target="_blank" class="btn btn-primary" id="link5">Go Nordic Coder</a>          
+                </div>    
+              </div>
+            </div> 
+           </div>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">WORK EXPERIENCE</h2>
+          <hr class="p-desktop-hr"  >
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-lg-3 d-flex flex-column justify-content-center image-hover">
+                <a href="https://nordiccoder.com/" target="_blank"><img src="nordiccoder.png" alt="python"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>Front-end Development</h4>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Determining the structure and design of web pages.</li>
+                  <li>Ensuring user experience determines design choices.</li>
+                  <li>Developing features to enhance the user experience.</li>
+                  <li>Striking a balance between functional and aesthetic design.</li>
+                  <li>Ensuring web design is optimized for smartphones.</li>
+                  <li>Building reusable code for future use.</li>
+                  <li>Optimizing web pages for maximum speed and scalability.</li>
+                  <li>Utilizing a variety of markup languages to write web pages.</li>
+                  <li>Maintaining brand consistency throughout design.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row ">
+              <div class="col-lg-3 d-flex flex-column justify-content-center mt-5 image-hover">
+                <a href="https://nordiccoder.com/" target="_blank"><img src="nordiccoder.png" alt="python"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>Back-end Development</h4>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</li>
+                  <li>Collaborating with the front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.</li>
+                  <li>Developing ideas for new programs, products, or features by monitoring industry developments and trends.</li>
+                  <li>Recording data and reporting it to proper parties, such as clients or leadership.</li>
+                  <li>Participating in continuing education and training to remain current on best practices, learn new programming languages, and better assist other team members.</li>
+                  <li>Taking lead on projects, as needed.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row ">
+              <div class="col-lg-3 d-flex flex-column justify-content-center mt-5 image-hover">
+                <a href="https://nordiccoder.com/" target="_blank"><img src="nordiccoder.png" alt="python"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>Mobile Development</h4>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Identify and plan for new features</li>
+                  <li>Develop application programming interfaces (APIs) to support mobile functionality</li>
+                  <li>Suggest and implement new mobile products, applications and protocols</li>
+                  <li>Remain up to date with the terminology, concepts and best practices for coding mobile apps</li>
+                  <li>Work closely with colleagues to constantly innovate app functionality and design</li>
+                  <li>Use and adapt existing web applications for apps</li>
+                  <li>Write unit and UI tests to identify malfunctions</li>
+                  <li>Communicate with users to understand their needs and experiences</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="fixed-bottom">
+          <button class= "btn btn-dark" onclick="myFunctionDarkmode()">Dark Mode</button>
+          <button class= "btn btn-light" onclick="myFunctionLightmode()">Light Mode</button>
+          </div>
+          <script>
+            function myFunctionDarkmode() {
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.backgroundColor = "#343a40";
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.color="white"; 
+              var x = document.getElementsByClassName("text-infomation");
+              x[0].style.color="white";
+              var x = document.getElementsByClassName("text-infomation");
+              x[1].style.color="white"; 
+
+              }
+              
+              function myFunctionLightmode() {
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.backgroundColor = "white";
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.color="#212529"; 
+              var x = document.getElementsByClassName("text-infomation");
+              x[0].style.color="#212529";
+              var x = document.getElementsByClassName("text-infomation");
+              x[1].style.color="#212529";
+            }
+          </script>
+      </div>
+      <div class="modal " id="contactme">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title text-dark">Contact Me</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body text-dark">
+              <form class="form-group" action="/action_page.php">
+                 <div class="form-row">
+                     <label>Full Name</label>
+                       <input type="text" class="form-control" placeholder="Your full name" required="" >
+                     <label>Gender </label>
+                       <select class="form-control" required="">
+                        <option value="" selected>Your gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Orther</option>
+                       </select>
+                     <label>Email</label>
+                       <input type="email" class="form-control" placeholder="Your email" required="">
+                     <label>Phone Number</label>
+                       <input type="number" class="form-control" placeholder="Your phone number" required="" >  
+                     <label>Message</label>
+                       <input type="text" class="form-control" placeholder="Your message" required="" >      
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                  <button type="submit" class="btn btn-primary mr-3 my-3">Submit</button>
+                  <button type="button" class="btn btn-danger ml-3 my-3" data-dismiss="modal">Close</button>
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </div>  
+
+      
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
