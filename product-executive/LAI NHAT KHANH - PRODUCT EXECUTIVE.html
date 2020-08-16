@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lai Nhat Khanh - Product Executive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .p-mobile hr {
+                background-color: grey;
+                width: 80%;
+                height: 1px;    
+            }
+            .education, .work-experience {
+              display: flex;
+              margin-top: 40px;
+            }
+            .school-name, .company-name {
+              flex: 60%;
+              text-align: left;
+            }
+            .school-name > hr, .company-name > hr{
+              width: 90%;
+              margin-left: 0px;
+              height: 0px;
+            }
+            .p-work-experience {
+              margin-top: -5px;
+            }
+            .year {
+              flex: 40%;
+            }
+            .p-desktop {
+              display: none;
+            }
+            .work-experience-hr-v .hr-vr {
+              height: 100%;
+              width: 1px;
+            }
+            .work-experience-hr-h > hr {
+              width: 70%;
+              height: 0.1px;
+              margin-left: 0px;
+            }
+            .image-hover:hover img {
+              opacity: 0.7;
+            }
+            .p-desktop-hr {
+              background-color: gray;
+            }
+            .text-infomation {
+              color: #212529;
+            }
+            .relative-card {
+              position: relative;
+            }
+            .absolute-card {
+              position: absolute;
+              left: 20px;
+              bottom: 20px;
+            }
+            @media (min-width: 1024px) {
+              .p-mobile, .progress-mobile{
+                display: none;
+              }
+              .p-desktop {
+              display: block;
+              }
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container-fluid p-mobile">
+        <div class="row">
+          <div class="col-lg-4 text-center ">
+            <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 image-hover"><img class="img-fluid my-3" src="khanh.jpg" alt="avatar" width=300px></a>
+              <h1 class=" mt-3 ">LẠI NHẬT KHÁNH</h1>
+                <hr >
+              <h4 >Product Executive</h4>
+                <br>
+            <div class="bg-dark text-light p-3">
+              <h2 class="mt-4 text-left">CAREER GOAL</h2>
+                 <p class="text-left ">With Microsoft Office skills, especially Excel, I am confident that I will fulfill the requirements of the job and will accompany the development of the company. 
+                  Here are some of my plans for the future:</p>
+                 <ul class="text-left ">
+                  <li>Earn a Degree or Certification.</li>
+                  <li>Enhance my professional skills</li>
+                  <li>Develop social relationships.</li>
+                  <li>Promote to a new position.</li>
+                  <li>Use my skills in the best possible way for achieving the company’s goals.</li>
+                  <li>Learn how to effectively delegate tasks.</li>
+                </ul>
+              <h2 class="mt-4 text-left">INFORMATION</h2>
+                 <p class="text-left ">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-calendar-week-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm9.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+                  </svg> 
+                  19.05.1997 </p>
+                 <p class="text-left ">
+                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                       <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                     </svg>
+                   Male</p>
+                 <p class="text-left ">
+                  <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>
+                  <a href="tel:0902569719" class="text-light">0902 569 719</a></p>
+                 <p class="text-left ">
+                  <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"/>
+                  </svg> <a href="mailto:lainhatkhanh2010@gmail.com" class="text-light">lainhatkhanh2010@gmail.com</a>
+                  </p>
+                  <p class="text-left "><i class="fa fa-facebook-f" style="font-size:24px"></i>
+                    <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 text-light">Nhật Khánh</a></p>
+                  <p class="text-left ">
+                  <svg width="1.7em" height="1.7em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                    <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                  </svg> 
+                  <a href="https://www.google.com/maps/place/C%C4%82N+H%E1%BB%98+Era+Town+%C4%90%E1%BB%A9c+Kh%E1%BA%A3i/@10.7006468,106.7329535,17z/data=!4m5!3m4!1s0x317525ef161b522d:0x11a187114174607d!8m2!3d10.7003411!4d106.7323634?hl=vi-VN" class="text-light" target="_blank" >15b Nguyen Luong Bang, Phu My Ward, District 7, HCM City</a>
+                </p>
+              <h2 class="mt-4 text-left">SKILL</h2>
+                 <p class="text-left mt-3 "><a href="https://www.microsoft.com/vi-vn/microsoft-365/excel" target="_blank" class="text-light"><strong>Excel</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:90%"></div>
+                  </div>
+                </p>
+                <p class="text-left mt-5 "><a href="https://www.microsoft.com/vi-vn/microsoft-365/powerpoint" target="_blank" class="text-light"><strong>PowerPoint</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                  </div>
+                </p>
+                <p class="text-left mt-5 "><a href="https://getbootstrap.com/" target="_blank" class="text-light"><strong>Boostrap 4</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:70%"></div>
+                  </div>
+                </p>  
+                <p class="text-left mt-5 "><a href="https://www.w3schools.com/html/default.asp" target="_blank" class="text-light"><strong>HTML</strong></a><div class="progress progress-mobile">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                  </div>
+                </p>
+              <h2 class="mt-4 text-left">EDUCATION</h2>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="http://c3luuvanliet.vinhlong.edu.vn/" target="_blank" class="text-light"><strong>Luu Van Liet High School</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                      
+                      </p>
+                    </div>
+                    <div class="year">
+                      2012 - 2015
+                    </div>
+                  </div>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                        HTML5 & CSS3
+                      </p>
+                    </div>
+                    <div class="year">
+                      7/2020 - 9/2021
+                    </div>
+                  </div>
+                  <div class="education ">
+                    <div class="school-name">
+                      <p>
+                        <a href="https://nordiccoder.com/" target="_blank" class="text-light"><strong>NORDIC CODER</strong></a>
+                      </p>
+                      <hr>
+                      <p>
+                        JavaScript
+                      </p>
+                    </div>
+                    <div class="year">
+                      9/2020 - 12/2021
+                    </div>
+                  </div>
+              <h2 class="mt-4 text-left">WORK EXPERIENCE</h2>
+                <div class="work-experience ">
+                  <div class="company-name">
+                    <h5>
+                      <strong>RETAIL PARTNER CO.LTD</strong>
+                    </h5>
+                    <p class="p-work-experience">
+                      Visual Merchandiser
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="year">
+                    7/2018 - 10/2018
+                  </div>
+                </div>
+                <p class="text-left ">
+                  <strong>Work description:</strong> 
+                  <ul class="text-left">
+                    <li>Work at brand <a href="https://vn.hconnect.com/" class="text-light" target="_blank"><strong> H:Connect. </strong></a></li>
+                    <li>Change and update the new outfit of the store and the manaquin.</li>
+                    <li>Make the assurance all products are on display.</li>
+                    <li>Make the assurance quality in the display zone.</li>
+                    <li>Communicate with store managers to work out the floor layout and display points, as well as how and what items are to be displayed.</li>
+                    <li>Get an idea of ​​how to arrange the goods at the store right after receiving the new product.</li>
+                  </ul>
+                </p>
+                <div class="work-experience ">
+                  <div class="company-name">
+                    <h5>
+                         <strong>HOA SEN VIỆT CO.LTD</strong>
+                    </h5>
+                    <p class="p-work-experience">
+                      Team Leader
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="year">
+                    11/2018 - 8/2019
+                  </div>
+                </div>
+                <p class="text-left ">
+                  <strong>Work description:</strong> 
+                  <ul class="text-left">
+                    <li>Work at brand <a href="https://www.adidas.com.vn/vi" class="text-light" target="_blank"><strong> adidas. </strong></a></li>
+                    <li>Management and reponsible the goods.</li>
+                    <li>Follow the turnover.</li>
+                    <li>Resolve the problem at the store.</li>
+                    <li>Meeting sales goals by training, motivating, mentoring and providing feedback to store staff.</li>
+                    <li>Training the newbie.</li>
+                    <li>Complete store administration and ensure compliance with policies and procedures.</li>
+                  </ul>
+                  <div class="work-experience ">
+                    <div class="company-name">
+                      <h5>
+                        <strong>ACFC CO.LTD</strong>
+                      </h5>
+                      <p class="p-work-experience">
+                        Assistant Store Manager
+                      </p>
+                      <hr>
+                    </div>
+                    <div class="year">
+                      11/2019 - CURRENT
+                    </div>
+                  </div>
+                  <p class="text-left ">
+                    <strong>Work description:</strong> 
+                    <ul class="text-left">
+                      <li>Work at brand <a href="https://www.nike.com/vn/" class="text-light" target="_blank"><strong> Nike. </strong></a></li>
+                      <li>Meet sales goals by training, motivating, mentoring and providing feedback to sales staff.</li>
+                      <li>Ensure high levels of customers satisfaction through excellent service.</li>
+                      <li>Complete store administration and ensure compliance with policies and procedures.</li>
+                      <li>Report on buying trends, customer needs, profits.</li>
+                      <li>Deal with all issues that arise from staff or customers (complaints, grievances etc).</li>
+                      <li>Monitor inventory levels and transfer new items.</li>
+                    </ul>
+                  </p>
+                <h2 class="mt-4 text-left ">CONTACT ME</h2>     
+                  <div class="form-group ">
+                    <form class="form-row" action="/action_page.php">
+                         <label>Full Name</label>
+                           <input type="text" class="form-control" placeholder="Your full name" required name="">
+                         <label>Gender </label>
+                           <select class="form-control">
+                            <option value="" selected>Your gender</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Orther</option>
+                           </select>
+                         <label>Email</label>
+                           <input type="email" class="form-control" placeholder="Your email" required name="">
+                         <label>Phone Number</label>
+                           <input type="number" class="form-control" placeholder="Your phone number" required name="">  
+                         <label>Message</label>
+                           <input type="text" class="form-control" placeholder="Your message" required name="">    
+                            <button type="submit" class="btn btn-primary mr-3 my-3">Submit</button>
+                     </form>
+                  </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="container-fluid p-desktop dark-mode-bg-dark-text-white" id="link0">
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 image-hover"><img class="img-fluid my-3" src="khanh.jpg" alt="avatar" width=300px></a>
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center text-center">
+            <h1 class=" mt-3 ">LẠI NHẬT KHÁNH</h1>
+                <hr width="70%" class="p-desktop-hr">
+              <h4>Product Executive</h4>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand bg-dark navbar-dark d-flex justify-content-around sticky-top dark-mode-bg-light-navbar-light border border-secondary">
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link0"><h5>Home</h5></a>
+            </li>
+          </ul> 
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link1"><h5>Career Goal</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link2"><h5>Information</h5></a>
+            </li>
+          </ul>    
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link3"><h5>Skill</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link4"><h5>Education</h5></a>
+            </li>
+          </ul>  
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="#link5"><h5>Work Experience</h5></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link dark-mode-text-dark-nav-a" href="" data-toggle="modal" data-target="#contactme"><h5>Contact Me</h5></a>
+            </li>
+          </ul>
+        </nav>
+        <br id="link1">
+        <br>
+        <div class="container-fluid">
+          <h2 class="mt-3 bg-dark text-white p-3 dark-mode-bg-light-text-dark">CAREER GOAL</h2>
+          <hr class="p-desktop-hr">
+          <p>With Microsoft Office skills, especially Excel, I am confident that I will fulfill the requirements of the job and will accompany the development of the company. 
+            Here are some of my plans for the future:</p>
+          <ul>
+            <li>Earn a Degree or Certification.</li>
+            <li>Enhance my professional skills</li>
+            <li>Develop social relationships.</li>
+            <li>Promote to a new position.</li>
+            <li>Use my skills in the best possible way for achieving the company’s goals.</li>
+            <li id="link2"  >Learn how to effectively delegate tasks.</li>
+          </ul>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">INFORMATION</h2>
+          <hr class="p-desktop-hr">
+          <div class="row">
+          <p class="col-lg-6 text-left ">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-calendar-week-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm9.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+            </svg> 
+            19.05.1997 </p>
+            <p class="col-lg-6 text-left ">
+              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+              </svg>
+              <a href="tel:0902569719" class="text-infomation">0902 569 719</a></p>
+           <p class="col-lg-6 text-left ">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                 <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+               </svg>
+             Male</p>
+           <p class="col-lg-6 text-left  ">
+            <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"/>
+            </svg> <a href="mailto:lainhatkhanh2010@gmail.com" class="text-infomation">lainhatkhanh2010@gmail.com</a>
+            </p>
+            <p class="col-lg-6 text-left"  id="link3">
+              <svg width="1.7em" height="1.7em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              </svg> 
+              <a href="https://www.google.com/maps/place/C%C4%82N+H%E1%BB%98+Era+Town+%C4%90%E1%BB%A9c+Kh%E1%BA%A3i/@10.7006468,106.7329535,17z/data=!4m5!3m4!1s0x317525ef161b522d:0x11a187114174607d!8m2!3d10.7003411!4d106.7323634?hl=vi-VN" class="text-infomation" target="_blank" >15b Nguyen Luong Bang, Phu My Ward, District 7, HCM City</a>
+             </p>
+            <p class="col-lg-6 text-left "><i class="fa fa-facebook-f" style="font-size:24px"></i>
+              <a href="https://www.facebook.com/khanh.nhat.71653318" target="_blank" class="pl-3 text-infomation">Nhật Khánh</a></p>
+          </div>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">SKILL</h2>
+          <hr class="p-desktop-hr">
+           <div class="container">
+             <div class="row justify-content-around">
+              <div class="card mt-3 ml-1 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.microsoft.com/vi-vn/microsoft-365/excel" target="_blank" class="image-hover"><img class="card-img-top" src="excel.jpg" alt="EXCEL" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Excel</h5>
+                   <p class="card-text">Excel is a tool for organizing and performing calculations on data. It can analyze data, calculate statistics, generate pivot tables, and represent data as a chart or graph.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%"></div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-3 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.microsoft.com/vi-vn/microsoft-365/powerpoint" target="_blank" class="image-hover"><img class="card-img-top" src="powerpoint.png" alt="powerpoint" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Powerpoint</h5>
+                   <p class="card-text">PowerPoint is a presentation program developed by Microsoft. The software allows users to create anything from basic slide shows to complex presentations.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-4 ml-1 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://getbootstrap.com//" target="_blank" class="image-hover"><img class="card-img-top" src="boostrap.jfif" alt="boostrap" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">Boostrap 4</h5>
+                   <p class="card-text">Bootstrap 4 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                    </div>                 
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-4 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="image-hover"><img class="card-img-top" src="html5.gif" alt="httml" height="250px"></a>
+                <div class="card-body">
+                   <h5 class="card-title">HTML</h5>
+                   <p class="card-text">HTML is the standard markup language for Web pages. With HTML you can create your own Website.<br> <br> <br>
+                   </p>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%" id="link4"></div>
+                    </div>                 
+                </div>    
+              </div>
+            </div>
+           </div> 
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">EDUCATION</h2>
+          <hr class="p-desktop-hr">
+           <div class="container ">
+            <div class="row justify-content-around">
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="THPT LƯU VĂN LIỆT.jpg" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white relative-card">
+                    <h5 class="card-title" id="highschool">Luu Van Liet High School</h5>
+                    <p class="card-text">
+                      _Major: <br>
+                      _Teacher: <br>
+                      _Course: 2012 - 2015
+                    </p>    <br> <br>
+                    <a href="http://c3luuvanliet.vinhlong.edu.vn/" target="_blank" class="btn btn-primary absolute-card">Go High School</a>           
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="nordiccoder.png" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white relative-card">
+                    <h5 class="card-title">Nordic Coder</h5> <br>
+                    <p class="card-text">
+                      _Major: HTML5 & CSS3 <br>
+                      _Teacher: Mr. Đức Thịnh<br>
+                      _Course: 7/2020 - 9/2020
+                    </p>          <br>
+                    <a href="https://nordiccoder.com/" target="_blank" class="btn btn-primary absolute-card">Go Nordic Coder</a>     
+                </div>    
+              </div>
+              <div class="card mt-4 col-lg-3 bg-dark text-white p-0 dark-mode-bg-light-text-dark border border-secondary">
+                <img class="card-img-top" src="nordiccoder.png" alt="python" height="250px">
+                  <div class="card-body bg-dark text-white relative-card">
+                    <h5 class="card-title">Nordic Coder</h5> <br>
+                    <p class="card-text">
+                      _Major: JavaScript <br>
+                      _Teacher: Mr. Đức Thịnh<br>
+                      _Course: 9/2020 - 12/2021
+                    </p>     
+                    <a href="https://nordiccoder.com/" target="_blank" class="btn btn-primary absolute-card" id="link5">Go Nordic Coder</a>          
+                </div>    
+              </div>
+            </div> 
+           </div>
+          <h2 class="mt-5 bg-dark text-white p-3 dark-mode-bg-light-text-dark">WORK EXPERIENCE</h2>
+          <hr class="p-desktop-hr"  >
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-lg-3 d-flex flex-column justify-content-center image-hover">
+                <a href="https://vn.hconnect.com/" target="_blank"><img src="hconnect.png" alt="hconnect"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>RETAIL PARTNER CO.LTD     </h4>
+                <h5>Visual Merchandiser ( 7/2018 - 10/2018 )</h5>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Work at brand H: Connect</li>
+                  <li>Change and update the new outfit of the store and the manaquin.</li>
+                  <li>Make the assurance all products are on display.</li>
+                  <li>Make the assurance quality in the display zone.</li>
+                  <li>Communicate with store managers to work out the floor layout and display points, as well as how and what items are to be displayed.</li>
+                  <li>Get an idea of ​​how to arrange the goods at the store right after receiving the new product.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row ">
+              <div class="col-lg-3 d-flex flex-column justify-content-center mt-5 image-hover">
+                <a href="https://www.adidas.com.vn/vi" target="_blank"><img src="adidas.jpg" alt="python" style="width: 225px; height: 225px;"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>HOA SEN VIỆT CO.LTD</h4>
+                <h5>Team Leader ( 11/2018 - 8/2019 )</h5>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Work at brand adidas.</li>
+                  <li>Management and reponsible the goods.</li>
+                  <li>Follow the turnover.</li>
+                  <li>Resolve the problem at the store.</li>
+                  <li>Meeting sales goals by training, motivating, mentoring and providing feedback to store staff.</li>
+                  <li>Training the newbie.</li>
+                  <li>Complete store administration and ensure compliance with policies and procedures.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row ">
+              <div class="col-lg-3 d-flex flex-column justify-content-center mt-5 image-hover">
+                <a href="https://www.nike.com/vn/" target="_blank"><img src="niketrang.jpg" alt="python"></a>
+              </div>
+              <div class="col-lg-1 d-flex flex-column justify-content-center work-experience-hr-v">
+                <hr class="p-desktop-hr hr-vr">
+              </div>
+              <div class="col-lg-7 d-flex flex-column justify-content-center text-left work-experience-hr-h">
+                <h4>ACFC CO.LTD</h4>
+                <h5>Assistant Store Manager ( 11/2019 - Current )</h5>
+                <hr class="p-desktop-hr">
+                <ul>
+                  <li>Work at brand NIKE.</li>
+                  <li>Meet sales goals by training, motivating, mentoring and providing feedback to sales staff.</li>
+                  <li>Ensure high levels of customers satisfaction through excellent service.</li>
+                  <li>Complete store administration and ensure compliance with policies and procedures.</li>
+                  <li>Report on buying trends, customer needs, profits.</li>
+                  <li>Deal with all issues that arise from staff or customers (complaints, grievances etc).</li>
+                  <li>Monitor inventory levels and transfer new items.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="fixed-bottom">
+          <button class= "btn btn-dark" onclick="myFunctionDarkmode()">Dark Mode</button>
+          <button class= "btn btn-light" onclick="myFunctionLightmode()">Light Mode</button>
+          </div>
+          <script>
+            function myFunctionDarkmode() {
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.backgroundColor = "#343a40";
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.color="white"; 
+              var x = document.getElementsByClassName("text-infomation");
+              x[0].style.color="white";
+              x[1].style.color="white";
+              x[2].style.color="white";
+              x[3].style.color="white";
+
+
+              }
+              
+              function myFunctionLightmode() {
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.backgroundColor = "white";
+              var x = document.getElementsByClassName("dark-mode-bg-dark-text-white");
+              x[0].style.color="#212529"; 
+              var x = document.getElementsByClassName("text-infomation");
+              x[0].style.color="#212529";
+              x[1].style.color="#212529";
+              x[2].style.color="#212529";
+              x[3].style.color="#212529";
+              x[4].style.color="#212529";
+
+            }
+          </script>
+      </div>
+      <div class="modal " id="contactme">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title text-dark">Contact Me</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body text-dark">
+              <form class="form-group" action="/action_page.php">
+                 <div class="form-row">
+                     <label>Full Name</label>
+                       <input type="text" class="form-control" placeholder="Your full name" required="" >
+                     <label>Gender </label>
+                       <select class="form-control" required="">
+                        <option value="" selected>Your gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Orther</option>
+                       </select>
+                     <label>Email</label>
+                       <input type="email" class="form-control" placeholder="Your email" required="">
+                     <label>Phone Number</label>
+                       <input type="number" class="form-control" placeholder="Your phone number" required="" >  
+                     <label>Message</label>
+                       <input type="text" class="form-control" placeholder="Your message" required="" >      
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                  <button type="submit" class="btn btn-primary mr-3 my-3">Submit</button>
+                  <button type="button" class="btn btn-danger ml-3 my-3" data-dismiss="modal">Close</button>
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </div>  
+
+      
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
