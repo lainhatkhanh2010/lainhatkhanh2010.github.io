@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h3>Cộng</h3>
+        <p id="cong"></p>
+        <h3>Trừ</h3>
+        <p id="tru"></p>
+        <h3>Nhân</h3>
+        <p id="nhan"></p>
+        <h3>Chia</h3>
+        <p id="chia"></p>
+        <h3>Chia %</h3>
+        <p id="chiaphantram"></p>
+
+        <script>
+            var a = cong(5, 6);
+                b = tru(7,2);
+                c = nhan (7,2);
+                d = chia (3,2);
+                e = chiaphantram (3,2);
+            function cong(x, y) {
+                return x + y;
+            };
+            function tru(x,y) {
+                return x - y;
+            }
+            function nhan(x,y) {
+                return x * y;
+            }
+            function chia(x,y) {
+                return x / y;
+            }
+            function chiaphantram(x,y) {
+                return x % y;
+            }
+            document.getElementById("cong").innerHTML = a;
+            document.getElementById("tru").innerHTML = b;
+            document.getElementById("nhan").innerHTML = c;
+            document.getElementById("chia").innerHTML = d;
+            document.getElementById("chiaphantram").innerHTML = e;
+        </script>
+    </body>
+</html>
